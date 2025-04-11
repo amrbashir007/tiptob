@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+        rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TipTob | Tout se vend. Tout se trouve. Tout simplement</title>
+    <link rel="icon" type="image/svg+xml" href="./logo.jpg" />
+
+    <style>
+        body {
+            font-family: "DM Sans", sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            min-height: 100vh;
+        }
+
+        header {
+            max-width: 1300px;
+            margin: auto;
+            padding: 0rem 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        main {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-align: start;
+            padding: 2rem;
+            max-width: 1300px;
+            margin: auto;
+        }
+
+        .H1-Mobile {
+            display: none;
+        }
+
+        .H1 {
+            font-weight: 700 !important;
+            margin: 20px 0px;
+            font-size: 3rem;
+            color: #000;
+        }
+
+        .H4 {
+            margin-top: 2rem;
+            font-weight: 600 !important;
+            font-size: 2rem;
+            color: #000;
+        }
+
+
+        .H5 {
+            font-size: 1.5rem;
+            font-weight: 600 !important;
+            color: #000;
+        }
+
+        .p {
+            font-size: 1.8rem;
+            /* color: #002b68; */
+            color: #000;
+        }
+
+        .container-r,
+        .container-l {
+            width: 50%;
+        }
+
+        .btn {
+            background-color: #002b68;
+            color: #fff;
+            border: none;
+            font-weight: 700;
+            padding: 1rem 3rem;
+            font: 1.2rem;
+            border-radius: 5px;
+            margin-top: 2rem;
+            box-shadow: -5px 5px 5px 0px #002b6830;
+        }
+
+
+        .mline {
+            display: none;
+        }
+
+        .logo-si {
+            max-width: 12rem;
+        }
+
+        @media screen and (max-width: 900px) {
+            main {
+                flex-direction: column-reverse;
+                padding: 2rem;
+            }
+
+            .container-r,
+            .container-l {
+                width: auto;
+            }
+
+            .H1-Mobile {
+                display: block;
+                font-weight: 700 !important;
+                margin: 20px 0px;
+                font-size: 1.8rem;
+                color: #000;
+                max-width: 1300px;
+                margin: auto;
+                padding: 2rem 2rem 0 2rem;
+            }
+
+            .H1 {
+                display: none;
+
+            }
+
+            .H4 {
+                font-size: 1.2rem;
+                margin-top: 1rem;
+            }
+
+            .H5 {
+                font-size: 1.2rem;
+                font-weight: 600 !important;
+                color: #000;
+            }
+
+            .p {
+                font-size: 1.5rem;
+                text-align: center;
+                /* color: #002b68; */
+                color: #000;
+            }
+
+            .mline {
+                display: block;
+            }
+
+            .logo-si {
+                max-width: 10rem;
+            }
+        }
+
+
+        @media screen and (max-width: 600px) {
+
+            main {
+                flex-direction: column-reverse;
+                padding: 1rem;
+            }
+
+            .H1-Mobile {
+                padding: 1rem 1rem 0 1rem;
+            }
+
+            .logo-si {
+                max-width: 8rem;
+            }
+
+            .H5 {
+                font-size: 1rem;
+                font-weight: 500 !important;
+                color: #000;
+            }
+
+            .p {
+                padding-inline: 1rem;
+            }
+
+            .top-contact svg {
+                width: 16px !important;
+                height: 16px !important;
+            }
+        }
+
+        @keyframes float {
+            0% {
+                scale: 1;
+            }
+
+            50% {
+                scale: 1.04;
+            }
+
+            100% {
+                scale: 1;
+            }
+        }
+
+        .animate-float {
+            animation: float 5s ease-in-out infinite;
+        }
+    </style>
+</head>
+
+<body>
+    <header style="padding: 1rem;">
+        <img class="logo-si" src="./logo.jpg" />
+        <div class="top-contact"
+            style="display: flex;flex-direction: column; justify-content: end;align-items: end;flex-wrap: wrap; gap: 5px 2rem ;">
+            <a class="H5" style="display: flex; align-items: center;gap: 0.5rem; margin-top: 0px;text-decoration: none;"
+                href="https://wa.me/+23561616194" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#42c152" class="bi bi-whatsapp"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+                </svg>
+                <span>+235 61 61 61 94</span>
+            </a>
+            <a class="H5" style="display: flex; align-items: center;gap: 0.5rem; margin-top: 0px;text-decoration: none;"
+                href="mailto:contact@tiptob.com" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#d85144"
+                    class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                    <path
+                        d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
+                </svg>
+                <span>contact@tiptob.com</span>
+            </a>
+        </div>
+    </header>
+
+    <div class="H1-Mobile">Site en cours de Préparation</div>
+
+    <main>
+        <div class="container-l">
+            <div class="H1">Site en cours de Préparation</div>
+
+            <div class="p" style="margin-top: 2rem;">Nous arrivons très bientôt avec quelque chose d'incroyable !</div>
+
+
+
+
+            <!-- <div style="display: flex; gap: 12px;">
+                    <button type="button" class="btn">
+                        Phone & Whatsapp
+                        +235 61 61 61 94
+                    </button>
+                    <button type="button" class="btn">
+                        Email
+                        contact@tiptob.com
+                    </button>
+            </div> -->
+        </div>
+        <div class="container-r">
+            <img class="animate-float" style="max-width: 100%;" src="./Under-Construction.avif" />
+        </div>
+    </main>
+
+    <hr class="mline" style="margin-inline: 3rem;border: 1px solid #d4d4d4;" />
+    <div class="p" style="max-width: 1400px;margin: auto;margin-top: 2rem; text-align: center; padding: 0rem 2rem;">
+        Passez
+        votre commande
+        dès maintenant !</div>
+    <div style="display: flex; justify-content: center;flex-wrap: wrap; gap: 0rem 2rem ; padding: 0px 2rem 4rem 2rem;">
+        <a class="H4" style="display: flex; align-items: center;gap: 1rem;text-decoration: none;" href="https://wa.me/+23561616194" target="_blank"> 
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#42c152" class="bi bi-whatsapp"
+                viewBox="0 0 16 16">
+                <path
+                    d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+            </svg>
+            <span>+235 61 61 61 94</span>
+        </a>
+        <a class="H4" style="display: flex; align-items: center;gap: 1rem;text-decoration: none;" href="mailto:contact@tiptob.com" target="_blank"> 
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#d85144" class="bi bi-envelope-fill"
+                viewBox="0 0 16 16">
+                <path
+                    d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
+            </svg>
+            <span>contact@tiptob.com</span>
+        </a>
+    </div>
+</body>
+
+</html>
